@@ -1,0 +1,50 @@
+
+body {
+margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 80px; 
+    text-align: center; 
+    background: #845EC2; 
+    color: white; 
+    font-size: 50px;
+  }
+
+h2, h3, h4 {
+    margin: 0px;
+    text-align: center;
+    background: #B39CD0;
+    color: white;
+    font-size: 35px;
+}
+
+
+img {
+    max-width: auto;
+    max-height: 200px;
+    
+}
+
+.splitscreen {
+    display:flex;
+    background: #FBEAFF;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -5px;
+    
+}
+
+.splitscreen.left{
+    flex: 2;
+    
+}
+
+.splitscreen.right{
+    flex: 1;
+}
+
+.hometext{
+    padding: 50px
+}
